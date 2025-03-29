@@ -15,7 +15,7 @@
   }
 
   &__container {
-    overflow-x: hidden;
+    overflow: hidden;
 
     @include container;
     @include page-grid;
