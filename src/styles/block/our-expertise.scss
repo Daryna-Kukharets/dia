@@ -30,7 +30,7 @@
     }
   }
   &__types {
-    overflow-x: hidden;
+    overflow: hidden;
 
     @include on-small-desktop {
       display: flex;

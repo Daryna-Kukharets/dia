@@ -24,7 +24,7 @@
   }
 
   &__desktop {
-    overflow-x: hidden;
+    overflow: hidden;
 
     @include on-small-desktop {
       @include page-grid;
