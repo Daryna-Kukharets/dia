@@ -67,10 +67,6 @@
   }
 
   &__socials-icon {
-    transition: $effectDuration;
-
-    &:hover {
-      transform: scale(1.2);
-    }
+    @include hover(scale 1.2);
   }
 }

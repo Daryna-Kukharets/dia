@@ -67,11 +67,9 @@
 
   &__button--prev,
   &__button--next {
-    transition: transform $effectDuration ease;
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.2);
-    }
+    cursor: pointer;
+
+    @include hover(scale 1.2);
   }
 
   &__intro {

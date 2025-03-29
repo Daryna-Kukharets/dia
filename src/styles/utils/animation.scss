@@ -1,6 +1,6 @@
 .el-anim {
   opacity: 0;
-  transition: all $animation-duration ease;
+  transition: transform $animation-duration ease;
 
   &--left {
     transform: translateX(-20%);

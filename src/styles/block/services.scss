@@ -77,8 +77,6 @@
 
   &__module {
     &:nth-child(2n) {
-      transition: all $effectDuration;
-
       @include hover(transform translateY(-5%));
 
       @include on-tablet {
