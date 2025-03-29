@@ -30,6 +30,8 @@
     }
   }
   &__types {
+    overflow-x: hidden;
+
     @include on-small-desktop {
       display: flex;
       justify-content: space-around;
